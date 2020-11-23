@@ -1,0 +1,19 @@
+{
+  "name": "askaaqib/hello-composer",
+  "description": "A Simple Hello world composer package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aqib",
+      "email": "askaaqib@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "askaaqib\\HelloWorld\\": "src/"
+    }
+  },
+  "require": {}
+}
